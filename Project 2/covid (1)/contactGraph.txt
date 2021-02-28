@@ -1,0 +1,9 @@
+Contact Matrix for Subject: 2
+
+Date: 2011/04/99 - Contact List: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Date: 2011/05/00 - Contact List: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Date: 2011/05/01 - Contact List: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Date: 2011/05/02 - Contact List: [1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1]
+Date: 2011/05/03 - Contact List: [1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1]
+Date: 2011/05/04 - Contact List: [1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1]
+Date: 2011/05/05 - Contact List: [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]

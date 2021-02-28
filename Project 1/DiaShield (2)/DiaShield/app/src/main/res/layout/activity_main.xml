@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#64d8fe"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/hearRateText"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="55dp" />
+
+    <TextView
+        android:id="@+id/respiratoryRateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hearRateText"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/MeasureHeartRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="253dp"
+        android:layout_marginEnd="131dp"
+        android:onClick="measurehrate"
+        android:text="Check Heart Rate" />
+
+    <Button
+        android:id="@+id/measureRespiratoryRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MeasureHeartRate"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-161dp"
+        android:onClick="measureR_Rate"
+        android:text="Check Respiratory Rate" />
+
+    <Button
+        android:id="@+id/uploadSigns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/measureRespiratoryRate"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="271dp"
+        android:onClick="upload"
+        android:text="Upload" />
+
+    <Button
+        android:id="@+id/symptoms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/uploadSigns"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="145dp"
+        android:onClick="openSymptoms"
+        android:text="Upload Symptom" />
+
+</RelativeLayout>

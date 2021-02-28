@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#64d8fe"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/hearRateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="55dp"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/respiratoryRateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hearRateText"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:id="@+id/locationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/respiratoryRateText"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60dp"/>
+
+    <Button
+        android:id="@+id/measureHeartRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/locationText"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-46dp"
+        android:onClick="checkhrate"
+        android:text="Check Heart Rate" />
+
+    <Button
+        android:id="@+id/measureRespiratoryRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/measureHeartRate"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:onClick="checkresprate"
+        android:text="Check Respiratory Rate" />
+
+    <Button
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/measureRespiratoryRate"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:text="Get Location"
+        android:onClick="checklocation"/>
+
+    <Button
+        android:id="@+id/symptoms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/location"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:onClick="checksymptoms"
+        android:text="Upload Symptom" />
+
+    <Button
+        android:id="@+id/uploadSigns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/symptoms"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25dp"
+        android:onClick="uploadsign"
+        android:text="Upload location and Signs" />
+
+    <Button
+        android:id="@+id/uploadDBToServer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/uploadSigns"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:onClick="dbserverupload"
+        android:text="Upload database to server" />
+
+</RelativeLayout>
